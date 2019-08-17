@@ -31,6 +31,7 @@ def using_concat(favorite_things,more_favs)
 end    
 
 def using_insert(list_of_programming_languages, another_language)
+<<<<<<< HEAD
     another_language= "Python"
     list_of_programming_languages.insert(4,another_language)
     
@@ -58,6 +59,21 @@ def using_delete_at(famous_robots,element_t_delete)
 
 
 end
+=======
+    list_of_programming_languages.insert(another_language)
+    new_array = using_insert(list_of_programming_languages,another_language)
+end
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 6683b45905ebcd3307ee9793246eb002efa832d5
 
 
 
